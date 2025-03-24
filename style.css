@@ -1,0 +1,59 @@
+/* Importando uma fonte romântica */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    padding: 20px;
+    color: #5a3d5c;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #ff758c;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background: #740a31;
+    cursor: not-allowed;
+}
+
+#poema, #frase {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: #ff0000; /*Cor do texto*/
+    background: rgba(243, 68, 68, 0.3);  /*Margem do fundo*/
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 60%;
+}
